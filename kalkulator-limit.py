@@ -1,4 +1,4 @@
-fimport streamlit as st
+import streamlit as st
 import sympy as sp
 import plotly.graph_objects as go
 import numpy as np
