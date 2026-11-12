@@ -92,7 +92,7 @@ st.markdown("""
 # Hero Banner
 st.markdown("""
 <div class="hero-banner">
-    <h1>⚡ Kalkulus - Kalkulator Limit</h1>
+    <h1>⚙️ Kalkulus - Kalkulator Limit</h1>
     <p>Evaluasi limit tingkat lanjut dengan iterasi otomatis Aturan L'Hôpital, analisis deret Taylor, uji kontinuitas, dan grafik.</p>
     <p>Created BY: Angger J.S</p>
 </div>
@@ -106,7 +106,7 @@ if "preset_point" not in st.session_state:
 
 # Sidebar: Preset Contoh Soal & Panduan
 with st.sidebar:
-    st.header("🎯 Contoh Soal Cepat")
+    st.header("⌛ Contoh Soal Cepat")
     st.caption("Klik salah satu tombol di bawah untuk langsung mencoba kasus limit populer:")
     
     if st.button("1. Bentuk 0/0: (sin(x) - x) / x³", use_container_width=True):
@@ -123,7 +123,7 @@ with st.sidebar:
         st.session_state.preset_point = "0"
 
     st.divider()
-    st.header("📖 Panduan Sintaks")
+    st.header("📖 Panduan Sintaks 📖")
     st.markdown("""
     * **Pangkat:** `x**2` atau `x^2`
     * **Perkalian:** `2*x` *(wajib pakai `*`)*
