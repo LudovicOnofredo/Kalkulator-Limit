@@ -1,4 +1,4 @@
-import streamlit as st
+fimport streamlit as st
 import sympy as sp
 import plotly.graph_objects as go
 import numpy as np
@@ -94,7 +94,10 @@ st.markdown("""
 <div class="hero-banner">
     <h1>⚙️ Kalkulus - Kalkulator Limit</h1>
     <p>Evaluasi limit tingkat lanjut dengan iterasi otomatis Aturan L'Hôpital, analisis deret Taylor, uji kontinuitas, dan grafik.</p>
-    <p>Created BY: Angger J.S</p>
+    <p>Created BY:</p>
+    <p>Nama: Angger Jiwa Sembada</p>
+    <p>Nim: 261011400131</p>
+    <p>Kelas: 01 TPLM 001</p>
 </div>
 """, unsafe_allow_html=True)
 
