@@ -105,10 +105,10 @@ if "preset_point" not in st.session_state:
 
 # Sidebar: Preset Contoh Soal & Panduan
 with st.sidebar:
-    <p>Created BY:</p>
-    <p>Nama: Angger Jiwa Sembada</p>
-    <p>Nim: 261011400131</p>
-    <p>Kelas: 01 TPLM 001</p>
+    st.caption("Created BY:")
+    st.caption("Nama: Angger Jiwa Sembada")
+    st.caption("Nim: 261011400131")
+    st.caption("Kelas: 01 TPLM 001")
     st.header("⌛ Contoh Soal Cepat")
     st.caption("Klik salah satu tombol di bawah untuk langsung mencoba kasus limit populer:")
     
