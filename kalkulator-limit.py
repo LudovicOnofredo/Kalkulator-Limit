@@ -105,10 +105,10 @@ if "preset_point" not in st.session_state:
 
 # Sidebar: Preset Contoh Soal & Panduan
 with st.sidebar:
-    st.markdown('<p style="font-size: 0.85rem; color: #38bdf8;">Created BY:</p>', unsafe_allow_html=True)
-    st.caption("Nama: Angger Jiwa Sembada")
-    st.caption("Nim: 261011400131")
-    st.caption("Kelas: 01 TPLM 001")
+    st.markdown('<p style="font-size: 0.85rem; color: #275BF5;">Created BY:</p>', unsafe_allow_html=True)
+    st.markdown('<p style="font-size: 0.85rem; color; #0A0F1C;">Nama: Angger Jiwa Sembada</p>', unsafe_allow_html=True)
+    st.markdown('<p style="font-size: 0.85rem; color; #0A0F1C;">Nim: 261011400131</p>', unsafe_allow_html=True)
+    st.markdown('<p style="font-size: 0.85rem; color; #0A0F1C;">Kelas: 01 TPLM 001</p>', unsafe_allow_html=True)
     st.header("⌛ Contoh Soal Cepat")
     st.caption("Klik salah satu tombol di bawah untuk langsung mencoba kasus limit populer:")
     
