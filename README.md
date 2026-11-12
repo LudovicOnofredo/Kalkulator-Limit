@@ -40,5 +40,5 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi ini di komputer lokal k
 
 1. **Clone repository ini:**
    ```bash
-   git clone [https://github.com/username/kalkulator-limit.git](https://github.com/username/kalkulator-limit.git)
-   cd kalkulator-limit
+   git clone [https://github.com/LudovicOnofredo/Kalkulator-Limit.git](https://github.com/LudovicOnofredo/Kalkulator-Limit.git)
+   cd Kalkulator-Limit
